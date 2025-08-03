@@ -26,7 +26,7 @@ mongoose.connect(
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: 'http://localhost:5173', // your frontend URL
+  origin: 'https://ocr-notepad-backend.onrender.com', // your frontend URL
   credentials: true, // important for cookies
 }));
 
