@@ -26,7 +26,7 @@ mongoose.connect(
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: 'https://ocr-notepad-backend.onrender.com', // your frontend URL
+  origin: 'https://nottepreziosa1.netlify.app', // your frontend URL
   credentials: true, // important for cookies
 }));
 
